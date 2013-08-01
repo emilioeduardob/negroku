@@ -5,3 +5,7 @@ require "negroku/version"
 def negroku
   File.join(File.dirname(__FILE__), 'negroku', 'deploy.rb')
 end
+
+def bowertasks
+  File.join(File.dirname(__FILE__), 'negroku', 'tasks', 'bower.rb')
+end

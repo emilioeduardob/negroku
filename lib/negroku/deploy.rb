@@ -34,6 +34,5 @@ set :bundle_flags,    "--deployment --binstubs"
 load_tasks('base')
 load_tasks('log')
 load_tasks('rbenv')
-load_tasks('bower')
 load_tasks('nginx')
 load_tasks('unicorn')
