@@ -38,7 +38,7 @@ Just install negroku as a global gem.
     end
 
     group :production do
-        gem 'unicron'
+        gem 'unicorn'
     end
     ```
 
@@ -125,7 +125,12 @@ Customizing the recipes
 
 Aside of prodefine some ways of doing the deployments, negroku is very flexible. This flexibility is inherit from capistrano where you can extend negroku with your recipes, overide existing ones, and modify every configuration you want.
 
+To Document
+-----------
 
+* Ask for adding env variables
+* Remember the user with a note in deploy:cold to create the branch
+* Add info on how and when to add the envirnmental variables
 
 
 
