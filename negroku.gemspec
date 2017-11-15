@@ -24,7 +24,7 @@ spec = Gem::Specification.new do |s|
   s.add_runtime_dependency('bundler', '~> 1.0')
   s.add_runtime_dependency('activesupport', '>= 3.0')
   s.add_runtime_dependency('capistrano', '~> 3.4.0')
-  s.add_runtime_dependency('capistrano-rbenv', '~> 2.0.3')
+  s.add_runtime_dependency('capistrano-rbenv', '~> 2.1.0')
   s.add_runtime_dependency('capistrano-rails', '~> 1.1.3')
   s.add_runtime_dependency('capistrano-bundler', '~> 1.2.0')
   s.add_runtime_dependency('capistrano-npm', '~> 1.0.1')
